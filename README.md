@@ -1,6 +1,5 @@
 # VendPal Dashboard
 
-https://vendpal.netlify.app/
 A responsive React dashboard application built with TypeScript, React Router, and Tailwind CSS. This project demonstrates modern React development practices, including component composition, mock API integration, and responsive design.
 [Visit VendPal](https://vendpal.netlify.app/)
 
