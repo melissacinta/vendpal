@@ -50,8 +50,9 @@ const Dashboard = () => {
             <div className="flex items-center justify-between">
               <div>
                 <h3 className="font-semibold">{dept.name}</h3>
-                <p className="text-sm">
-                  {dept.stats.departments} Department • {dept.stats.units} Unit
+                <p className="text-sm flex items-center gap-1.5">
+                  {dept.stats.departments} Department
+                  <span>{VpIcons['ellipse']('4')}</span> {dept.stats.units} Unit
                 </p>
               </div>
               <div className="w-8 h-8 bg-blue-200 rounded-full overflow-hidden">

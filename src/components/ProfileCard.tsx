@@ -102,7 +102,7 @@ const ProfileCard = () => {
       <div className="px-8 py-8 border-t border-schemes-outline mt-4">
         <div className="flex items-center justify-center space-x-4 text-xs lg:text-sm">
           <span>Terms of Service</span>
-          <span>•</span>
+          <span>{VpIcons['ellipse']()}</span>
           <span>Privacy policy</span>
         </div>
       </div>

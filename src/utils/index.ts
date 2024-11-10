@@ -1,3 +1,4 @@
+import { SITE_ROUTES } from './routes';
 import { VpIcons } from './VpIcons';
 
 export function classNames(...classes: string[]) {
@@ -8,7 +9,7 @@ export const topBarLinks = [
   {
     label: 'Dashboard',
     icon: VpIcons['dashboard'](),
-    path: '/',
+    path: SITE_ROUTES.HOME,
   },
   {
     label: 'Approval Workflow',
@@ -18,7 +19,7 @@ export const topBarLinks = [
   {
     label: 'Budget room',
     icon: VpIcons['budget'](),
-    path: '/budget-room',
+    path: SITE_ROUTES.BUDGET_ROOM,
   },
   {
     label: 'Analytics',

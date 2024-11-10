@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { HomeIcon, ArrowLeft } from 'lucide-react';
 import { VpIcons } from '../utils/VpIcons';
 import Button from './Button';
+import { SITE_ROUTES } from '../utils/routes';
 
 const FourOhFour = () => {
   const navigate = useNavigate();
@@ -29,7 +30,7 @@ const FourOhFour = () => {
           </Button>
 
           <Button
-            onClick={() => navigate('/')}
+            onClick={() => navigate(SITE_ROUTES.HOME)}
             variant="primary"
             className="w-full sm:w-auto"
           >
